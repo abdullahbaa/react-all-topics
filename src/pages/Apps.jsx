@@ -15,6 +15,7 @@ const Apps = () => {
         <div>
             <h1>Login Status</h1>
             <button>Login</button>
+            <Props/>
         </div>
     );
     }

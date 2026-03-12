@@ -39,3 +39,11 @@ SELECT * from users LIMIT 4 OFFSET 4;
 
 -- Order by
 SELECT * FROM users ORDER BY age DESC AND name ASC;
+
+CREATE TABLE orders(
+    id SERIAL PRIMARY KEY,
+    userId INT NOT NULL,
+    total INT,
+    quantity INT
+
+);
